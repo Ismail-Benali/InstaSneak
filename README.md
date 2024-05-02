@@ -1,4 +1,4 @@
-
+![InstaSneak](https://github.com/Ismail-Benali/InstaSneak/assets/90980178/fe4d708d-a24e-4c4d-ae9e-80ac5543c751)
 
 ## Description
 This is a simple Python script that attempts to crack an Instagram account password using brute force or a provided password list.
