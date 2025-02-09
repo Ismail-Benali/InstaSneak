@@ -7,7 +7,7 @@ def generate_passwords(characters, length):
             for candidate in itertools.product(characters, repeat=length))
 
 def check_password(username, password):
-    url = f"https://www.instagram.com/{username}/"
+    url = f"https://www.instagram.com/{santiprtw75}/"
     response = requests.get(url)
     return response.status_code == 200
 
@@ -29,7 +29,7 @@ def main():
     print("=========================================")
     print()
 
-    username = input("Enter the Instagram username: ")
+    username = input("santiprtw75: ")
     use_password_list = input("Do you want to use a password list? (yes/no): ").lower()
 
     if use_password_list == 'yes':
